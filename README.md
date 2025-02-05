@@ -14,15 +14,15 @@ given time.
 ## Project Structure
 ```
 HotelBookingAPI/
-??? Controllers/          ? API controllers (Hotel & Booking)
-??? Data/                ? Database context & seeding logic
-??? Migrations/          ? Entity Framework Core migrations
-??? Models/              ? Entity models (Hotel, Room, Booking)
-??? DTOs/                ? Data Transfer Objects (DTOs)
-??? Services/            ? Business logic for hotel & booking operations
-??? appsettings.json     ? API configuration settings
-??? Program.cs           ? Application entry point
-??? README.md            ? Project documentation (this file)
+Controllers/          ? API controllers (Hotel & Booking)
+Data/                ? Database context & seeding logic
+Migrations/          ? Entity Framework Core migrations
+Models/              ? Entity models (Hotel, Room, Booking)
+DTOs/                ? Data Transfer Objects (DTOs)
+Services/            ? Business logic for hotel & booking operations
+appsettings.json     ? API configuration settings
+Program.cs           ? Application entry point
+README.md            ? Project documentation (this file)
 
 ```
 
@@ -52,7 +52,7 @@ Ensure you have:
    ```
 
 4. **Open the API in Swagger**:
-   - Navigate to ?? `https://localhost:7088/swagger`
+   - Navigate to `https://localhost:7088/swagger`
 
 ---
 
